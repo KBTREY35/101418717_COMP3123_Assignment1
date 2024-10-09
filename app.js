@@ -9,6 +9,11 @@ const app = express();
 // Middleware
 app.use(express.json());
 
+// Default Route
+app.get('/', (req, res) => {
+  res.send('Welcome to the COMP3123 Assignment 1 API');
+});
+
 // Routes
 app.use('/api/v1/user', userRoutes);
 app.use('/api/v1/emp', employeeRoutes);
