@@ -1,15 +1,16 @@
 {
   "name": "101418717_comp3123_assignment1",
   "version": "1.0.0",
-  "main": "index.js",
- "scripts": {
-  "start": "node app.js",
-  "test": "echo \"Error: no test specified\" && exit 1"
-},
-  "keywords": [],
-  "author": "",
+  "description": "COMP3123 Assignment 1 - Node.js and Express API",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["Node.js", "Express", "MongoDB", "COMP3123", "assignment"],
+  "author": "Your Name Here",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "dotenv": "^16.4.5",
@@ -17,5 +18,8 @@
     "express-validator": "^7.2.0",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
   }
 }
