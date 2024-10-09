@@ -1,6 +1,12 @@
 
 # COMP3123 Assignment 1 - Employee Management API
 
+## sample login for testing
+
+{
+  "email": "kevinbhangu@example.com",
+  "password": "kevin123"
+}
 
 ## Features
 - User account management (sign up and log in)
@@ -8,6 +14,7 @@
 - Data validation using express-validator
 - MongoDB for data storage
 - Error handling with detailed responses
+
 
 ## Technologies Used
 - Node.js
