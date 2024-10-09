@@ -8,6 +8,9 @@
   "password": "kevin123"
 }
 
+## render hosting
+https://one01418717-comp3123-assignment1.onrender.com
+
 ## Features
 - User account management (sign up and log in)
 - CRUD operations for employee data
